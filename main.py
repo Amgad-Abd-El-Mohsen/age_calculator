@@ -31,9 +31,8 @@ def main(page: ft.Page):
         shape=ft.NotchShape.CIRCULAR,
         content=ft.Row(
             controls=[
-                ft.IconButton(icon=ft.icons.MENU, icon_color=ft.colors.WHITE),
                 ft.Container(expand=True),
-                ft.IconButton(icon=ft.icons.FAVORITE, icon_color=ft.colors.WHITE,on_click=lambda _: page.open(bs))
+                ft.IconButton(icon=ft.icons.INFO_OUTLINE, icon_color=ft.colors.WHITE,on_click=lambda _: page.open(bs))
             ]
         ),
     )
